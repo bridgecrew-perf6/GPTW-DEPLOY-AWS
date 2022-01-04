@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+
+# dotend environment variable
+.env
+exceptions.log
+rejections.log

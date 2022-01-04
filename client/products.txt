@@ -1,0 +1,83 @@
+
+1)CEO CULTURE DASHBOARD 
+    PRODUCT FOR - (CEO,BUSINESS LEADERS,HR PROFESSIONAL)
+    DESCRIPTION - To operationalize culture management by tracking real-time correlations between culture and business
+                  Leadership Effectiveness, Employee Engagement, Talent Management, Business Continuity, Customer Engagement, Operational Effectiveness
+    IMAGE - https://lissen.io/wp-content/uploads/2021/04/training.png
+    PRICE/MONTH - 1500/-
+    PRICE - 12000/-
+    PRODUCT URL - https://lissen.io/cfs/
+
+    
+2)REALTIME TRUST INDEX 
+    PRODUCT FOR - (LEADERS,MANAGERS,HR PROFESSIONAL)
+    DESCRIPTION - To help interpret employee voice. This is a condensed version of the Great Place to Work® Trust Index© and is able to predict the scores on the complete Trust Index© survey with 95% accuracy
+                  Credibility, Respect, Fairness, Pride, Camaraderie
+    IMAGE - https://lissen.io/wp-content/uploads/2021/07/Employee-trust-index-pulse-1024x525.jpeg
+    PRICE/MONTH - 1500/-
+    PRICE - 12000/-
+    PRODUCT URL - https://lissen.io/cfs/
+
+3)CONTINUOUS WELLBEING INDICATOR 
+    PRODUCT FOR - (LEADERS,MANAGERS,HR PROFESSIONAL)
+    DESCRIPTION - To foster a culture of employee well-being that leads to a healthy and high performing Workplace
+                  Fitness, Resilience, Social indices
+    PRICE/MONTH - 1500/-
+    PRODUCT_URL - https://lissen.io/cfs/
+
+3.TRUST IMPACT
+    IMAGE - https://lissen.io/wp-content/uploads/2021/04/truest-impact-white.png
+    DESC - Leverage actionable insights with holistic employee experience management
+    PRODUCT_URL - https://lissen.io/trustimpact/
+    PRICE/MONTH - 1500/-
+    PRICE - 12000/-
+    PRODUCT FOR - (LEADERS,MANAGERS)
+
+
+
+4.QAIZENX
+    IMAGE - https://lissen.io/wp-content/uploads/2021/04/Shape-Culture-At-Every-Step.png
+    DESC - A multi-faceted platform for experience centric leaders,
+        Craft an Absolutely Engaging Journey for your Employees
+    PRODUCT_FOR - (LEADERS,MANAGERS)
+    PRICE/MONTH - 1500/-
+    PRICE - 12000/-
+    PRODUCT_URL - https://lissen.io/qaizenx/
+
+
+5.WORK PLACE CULTURE ASSESSMENT
+    IMAGE - https://www.greatplacetowork.in/wp-content/uploads/2021/11/GPTW-Corporate-logo-1.png
+    DESC - The assessment process reveals key factors that define as well as compare the culture at an organization with that of its competitors. The Great Place to Work® offers deep dive into these insights through its comprehensive reports.
+    PRICE - 12000/-
+    PRODUCT_FOR - (COMPANIES,LEADERS,MANAGERS)
+    PRODUCT URL - https://www.greatplacetowork.in/gptw-insights/
+
+6.DIVERSITY EQUITY & INCLUSION
+    IMAGE - https://www.greatplacetowork.in/wp-content/uploads/2021/11/GPTW-Corporate-logo-1.png
+    DESC - Great Place to Work® Institute in partnership with Confederation of Indian Industry (CII) have now taken a step forward by introducing nation’s first holistic inclusion assessment, the Workplace Inclusion Index™ to identify India’s diverse & inclusive workplaces.
+    PRICE - 12000/-
+    PRODUCT_FOR - (COMPANIES,LEADERS,MANAGERS)
+
+7.PEOPLE PRACTICES ASSESSMENT
+    IMAGE - https://www.greatplacetowork.in/wp-content/uploads/2019/08/GPTW-Icon-3.svg
+    DESC - In a time of constant change and the battle to stand out from the ever-increasing competition, organizations are only as good as their people. Based on Great Place to Work® research conducted in USA and India over more than a decade, organizations that create a great workplace environment consistently outperform the market indices.
+    PRODUCT_FOR - (COMPANIES,LEADERS,MANAGERS)
+    PRODUCT_URL - https://www.greatplacetowork.in/culture-consulting/
+    PRICE/MONTH - 1500/-
+    PRICE - 12000/-
+
+8.CULTURE COUNSELLING 
+    IMAGE - https://www.greatplacetowork.in/wp-content/uploads/2019/08/GPTW-Icon-3.svg
+    DESC - In a time of constant change and the battle to stand out from the ever-increasing competition, organizations are only as good as their people. Based on Great Place to Work® research conducted in USA and India over more than a decade, organizations that create a great workplace environment consistently outperform the market indices.
+    PRODUCT_FOR - (COMPANIES,LEADERS,MANAGERS)
+    PRODUCT_URL - https://www.greatplacetowork.in/culture-consulting/
+    PRICE/MONTH - 1500/-
+    PRICE - 12000/-
+
+9.GREAT MANAGERS INSTITUTE
+    IMAGE - https://www.greatmanagerinstitute.com/wp-content/uploads/2021/11/GMIIdFinal251021-01-1.png
+    DESC - Measure and continuously improve your people management ability Understand your leadership profile and drive targeted development to actualize your potential Access a panel of industry mentors & learning resources Designed for both enterprises & individuals
+    PRODUCT_FOR - (MANAGERS)
+    PRODUCT_URL - https://www.greatplacetowork.in/culture-consulting/
+    PRICE/MONTH - 1500/-
+    PRICE - 12000/-

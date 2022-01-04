@@ -1,0 +1,192 @@
+// // ROUTES TESTING 
+// import React from 'react';
+// import { mount } from 'enzyme';
+// import { createMemoryHistory } from "history";
+// import { Provider } from 'react-redux';
+// import App from '../App';
+// import Enzyme from 'enzyme';
+// import { configureStore } from "@reduxjs/toolkit";
+// import userReducer from '../redux/userSlice';
+// import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17';
+// import NotfoundPage from '../pages/NotFoundPage'
+// import AdminPage from '../pages/AdminPage'
+// import AllProductsPage from '../pages/AllProductsPage'
+// // import {MemoryRouter} from 'react-router-dom'
+// import {MemoryRouter} from 'react-router'
+// import ProductListPage from '../pages/ProductListPage';
+// import ProfilePage from '../pages/ProfilePage';
+// import Loginpage from '../pages/Loginpage';
+// import RegisterPage from '../pages/RegisterPage';
+// import Homepage from '../pages/Homepage';
+// Enzyme.configure({adapter:new EnzymeAdapter()});
+// const rrd = require('react-router-dom');
+// // Just render plain div with its children
+// rrd.BrowserRouter = ({children}) => <div>{children}</div>
+
+// test('Invalid path to redirect to 404 page',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/random']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(AdminPage)).toHaveLength(0);
+//   expect(wrapper.find(NotfoundPage)).toHaveLength(1);
+// })
+
+// test('Testing protected routes dashboard',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/dashboard']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(AdminPage)).toHaveLength(0);
+// })
+
+// test('Testing protected routes product',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/product']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(ProductListPage)).toHaveLength(0);
+// })
+
+// test('Testing protected routes allproduct',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/allproduct']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(AllProductsPage)).toHaveLength(0);
+// })
+
+// test('Testing protected routes profile',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/profile']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(ProfilePage)).toHaveLength(0);
+// })
+
+// test('Login route renders login component',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/login']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(Loginpage)).toHaveLength(1);
+// })
+
+// test('Register route renders register component',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/register']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(RegisterPage)).toHaveLength(1);
+// })
+
+// test('Home route renders home component',() => {
+//     const store = configureStore({reducer:{user:userReducer}})
+//     const wrapper = mount(
+//             <Provider store={store}>
+//                 <MemoryRouter initialEntries={['/']}>
+//                     <App/>
+//                 </MemoryRouter>
+//             </Provider>
+//     )
+//     expect(wrapper.find(Homepage)).toHaveLength(1);
+// })
+
+// // PRODUCT LIST TESTS
+// import React from 'react';
+// import { shallow } from 'enzyme';
+// import { createMemoryHistory } from "history";
+// import { Provider } from 'react-redux';
+// import ProductList from '../components/ProductList';
+// import Enzyme from 'enzyme';
+// import { configureStore } from "@reduxjs/toolkit";
+// import productReducer from '../redux/productSlice';
+// import userReducer from '../redux/userSlice';
+// import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17';
+// import {Router} from 'react-router-dom'
+// Enzyme.configure({adapter:new EnzymeAdapter()});
+
+
+// const store = configureStore({reducer:{user:userReducer}})
+// const setup = (props) => {
+//     const history = createMemoryHistory();
+//     return shallow(<Provider store={store}>
+//                     <Router location={history.location} navigator={history}>
+//                         <ProductList props={props}/>
+//                     </Router>
+//                 </Provider>)
+// }
+
+// test('productlist componenet renders',() => {
+//     const wrapper = setup();
+//     expect(wrapper.exists()).toBe(true)
+// });
+
+// test('Matched products array fills when products are matched',() => {
+//     let productCount = 0
+//     let product = 'GPTW Marketplace'
+//     const wrapper = setup(productCount)
+//     let matchedProduct = []
+//     let userDepartment = 'administration';let productDepartment = 'administration'
+//     if(userDepartment == productDepartment){
+//         matchedProduct.push(product)
+//     }
+//     productCount = matchedProduct.length
+//     expect(productCount).not.toBe(0)
+// });
+
+// // ALL PRODUCTS TEST
+// import React from 'react';
+// import { mount, shallow } from 'enzyme';
+// import { createMemoryHistory } from "history";
+// import { Provider } from 'react-redux';
+// import AllProductPage from '../pages/AllProductsPage'
+// import Enzyme from 'enzyme';
+// import { configureStore } from "@reduxjs/toolkit";
+// import userReducer from '../redux/userSlice';
+// import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17';
+// import {Router} from 'react-router-dom'
+// Enzyme.configure({adapter:new EnzymeAdapter()});
+
+// const store = configureStore({reducer:{user:userReducer}})
+// const setup = (props) => {
+//     const history = createMemoryHistory();
+//     return shallow(<Provider store={store}>
+//                     <Router location={history.location} navigator={history}>
+//                         <AllProductPage props={props}/>
+//                     </Router>
+//                 </Provider>)
+// }
+
+// test('renders all products page successfully',() => {
+//     const wrapper = setup()
+//     expect(wrapper.exists()).toBe(true)
+// })
