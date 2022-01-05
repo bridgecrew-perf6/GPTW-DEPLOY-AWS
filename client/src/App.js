@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import Loginpage from "./pages/Loginpage";
 import RegisterPage from "./pages/RegisterPage";
-import Homepage from "./pages/Homepage";
+import Home from "./pages/Home";
 import { useSelector } from "react-redux";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import ResetTokenPage from "./pages/ResetTokenPage";
@@ -43,7 +43,7 @@ function App() {
           path="/"
           element={
             <RedirectLogin>
-              <Homepage />
+              <Home />
             </RedirectLogin>
           }
         />
