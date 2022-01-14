@@ -58,13 +58,11 @@ app.use("/api/v1", faqRoutes);
 app.use(errorMiddlerware);
 
 // DEPLOYING TO PRODUCTION ON HEROKU
-if(process.env.NODE_ENV == 'production'){
   const path = require('path');
   app.use(express.static(path.resolve(__dirname,"client/build")));
   app.get("*",(req,res) => {
     res.sendFile(path.resolve(__dirname,'client/build','index.html'));
   })
-}
 
 // STARTING SERVER
 const server = app.listen(PORT, (req, res) => {
