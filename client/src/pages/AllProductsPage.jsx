@@ -27,7 +27,7 @@ const ProductListPage = () => {
                 <Recommended top={'All Products'} data-test="allproduct-recommend"/>
                 </div>
                 <div className="grid md:grid-cols-2 grid-cols-1 mx-auto">
-                {product.map((item) => <Product title={item.name} desc={item.description} img={item.imgUrl} price={item.price} stars={5} review={72} key={item._id}/>)}
+                {product.map((item) => <Product title={item.name} desc={item.description} img={item.imgUrl} price={item.price} stars={5} review={72} key={item._id} productUrl={item.productUrl}/>)}
                 </div>
                 <div className="mt-3 mb-7 flex justify-center">
                     <Link to="/product">

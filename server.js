@@ -35,7 +35,7 @@ const PORT = process.env.PORT || 6500;
 // DB CONNECTION
 const DB_CONNECTION = async () => {
   await mongoose
-    .connect(process.env.DB_URL, {
+    .connect("mongodb+srv://faiz0929:faiz1930@cluster0.1zoun.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })

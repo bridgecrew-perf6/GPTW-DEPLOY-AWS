@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Product = ({title,desc,img,price,stars,review}) => {
+const Product = ({title,desc,img,price,stars,review,productUrl}) => {
     return (
 	<div className="flex flex-col justify-between m-4">
 		<div className="relative flex flex-col md:flex-row  rounded-md shadow-lg p-3 max-w-md md:max-w-lg border border-white bg-white justify-around dark:bg-secondaryDark dark:border-transparent">
@@ -31,12 +31,14 @@ const Product = ({title,desc,img,price,stars,review}) => {
 							<span className="font-normal text-gray-600 text-base dark:text-gray-400">/month</span>
 						</p>
 						<div className="flex items-center justify-center">
+							<a href={productUrl} target='_blank'>
 						<button className="px-5 py-2 md:px-2 md:py-1 md:ml-3 lg:px-5 lg:py-2 bg-primary rounded-md text-white text-xs flex justify-center items-center dark:bg-darkBtn dark:hover:bg-indigo-700">
-							Checkout 
+						Know more
 							<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-3 ml-2">
   							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 							</svg>
 						</button>
+						</a>
 						</div>
 					</div>
 				</div>

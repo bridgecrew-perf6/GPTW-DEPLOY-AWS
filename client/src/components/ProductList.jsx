@@ -39,7 +39,7 @@ const ProductList = ({top,button,link,goback,productCount}) => {
         <Recommended top={top} button={button} link={link} goback={goback}/>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 mx-auto">
-        {matchedProduct.map((item) => <Product title={item.name} desc={item.description} img={item.imgUrl} price={item.price} stars={5} review={72} key={item._id}/>)}
+        {matchedProduct.map((item) => <Product title={item.name} desc={item.description} img={item.imgUrl} price={item.price} stars={5} review={72} key={item._id} productUrl={item.productUrl}/>)}
         </div>
         <div className="mt-3 mb-7 flex justify-center">
             <Link to={{pathname:`/${link}`}}>
